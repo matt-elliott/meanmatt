@@ -18,8 +18,8 @@
 
 </head>
 <body class="container">
-  <header class="row" id="site-header">
-    <div class="col-md-12">
+  <header id="site-header">
+    <div>
       <h1 class="logo">MeanMatt</h1>
       <h3 class="tagline">Lean, MEAN coding machine</h3>
       <p class="lead">Living and developing web apps for small business in Los Angeles</p>
@@ -35,12 +35,13 @@
     </div>
   </header>
 
-  <section class="row examples">
-    <header class="col-sm-12">
+  <section class="examples">
+    <header>
       <h5>Projects</h5>
     </header>
 
-    <ul class="list-unstyled">
+
+    <ul class="list-unstyled row">
       <li class="col-md-3 col-xs-12">
         <h6>
           <a href="https://awesomelittlegreenmen.mgae.com/" target="_blank">
@@ -68,7 +69,22 @@
           </a>
         </h6>
         <p>
-            [WIP] A web app for a salon to receive appointments and manage appointments.
+            A web app for a salon to receive appointments and manage appointments.
+            <br />
+            [WIP : needs front end and controllers for CRUD appointments]
+            <br />
+            <a href="https://github.com/matt-elliott/PelosPlace/" target="_blank">View on Github</a>
+        </p>
+      </li>
+      <li class="col-md-3 col-xs-12">
+        <h6>
+          <a href="https://github.com/matt-elliott/twitter-watcher/" target="_blank">
+            Twitter Watcher
+          </a>
+        </h6>
+        <p>
+            A small web app that watches twitter for certain keywords and saves the tweet.
+            [WIP : needs front end controls for keyword to watch] 
             <br />
             <a href="https://github.com/matt-elliott/PelosPlace/" target="_blank">View on Github</a>
         </p>
@@ -144,40 +160,40 @@
   </section>
 
   <section class="row overview">
-    <div class="col-sm-12 col-md-3">
-      <h5>Skills</h5>
+    <div class="col-sm-12 col-md-6">
+      <h5>Stack</h5>
       <ul class="list-unstyled">
-        <li>html5</li>
-        <li>css3</li>
-        <li>javascript</li>
-        <li>nodejs</li>
-        <li>nginx</li>
-        <li>angularjs</li>
+        <li>MongoDB</li>
+        <li>ExpressJS</li>
+        <li>AngularJS</li>
+        <li>NodeJS</li>
+        <li>Nginx</li>
+        <li>MySql</li>
       </ul>
     </div>
-    <div class="col-sm-12 col-md-3">
+    <!-- <div class="col-sm-12 col-md-3">
       <h5>Certifications</h5>
       <ul class="list-unstyled">
         <li>html5</li>
         <li>css3</li>
         <li>javascript</li>
       </ul>
-    </div>
+    </div> -->
     <div class="col-sm-12 col-md-6">
       <h5>Training (Udemy)</h5>
       <ul class="list-unstyled">
         <li>Learn and Understand NodeJs</li>
-        <li>Learn Ethical Hacking from Scratch</li>
+        <!-- <li>Learn Ethical Hacking from Scratch</li>
         <li>ES6: Developers Guide</li>
         <li>Google Dev Tools Course</li>
-        <li>Fundamentals of Programming</li>
+        <li>Fundamentals of Programming</li> -->
       </ul>
     </div>
   </section>
 
-  <section class="row contact">
+  <!-- <section class="row contact">
     <header class="col-sm-12">
-      <h5>Hire Me</h5>
+      <h5>Contact</h5>
     </header>
 
     <form class="col-md-6 col-sm-12 form-group">
@@ -191,7 +207,7 @@
     <figure class="col-md-6 col-sm-12">
       <img src="http://placehold.it/250x300" />
     </figure>
-  </section>
+  </section> -->
 
   <footer class="row site-footer">
   </footer>
