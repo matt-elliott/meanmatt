@@ -1,0 +1,49 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  font-family: @body-fonts;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: @site-bg-color;
+  color: @body-text-color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: @headline-fonts; 
+  font-weight: normal; 
+  font-style: normal;
+}
+
+#site-header, section {
+  position: relative;
+  // background-color: #fff;
+  border-bottom: 2px solid @primary-color;
+}
+
+section {
+  padding: 30px 0;
+
+  header {
+    margin-bottom: 15px;
+  }
+
+  h5 {
+    border-bottom: 2px solid @primary-color;
+    background-color: #fff;
+    color: @body-text-color;
+    padding: 5px;
+  }
+
+  &:not(.overview) {
+    h5 {
+      width: 277px;
+    }
+  }
+}

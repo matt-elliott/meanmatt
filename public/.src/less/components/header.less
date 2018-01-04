@@ -1,0 +1,43 @@
+header#site-header {
+  padding: 50px 0 10px;
+
+  h1 {
+    font-size: 5rem;
+    color: @primary-color;
+    margin-bottom: 0;
+    line-height: 0.7;
+    text-shadow: -1px 1px 1px hsl(4, 85%, 5%),
+                 -1px -1px 1px hsl(4, 85%, 5%),
+                  1px -1px 1px hsl(4, 85%, 5%),
+                  1px 1px 1px hsl(4, 85%, 5%);
+
+    /*&:after {
+      content: '\e104';
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+    }*/
+  }
+
+  h3 {
+    color: @secondary-color;
+    letter-spacing: 0.04rem;
+    margin-bottom: 0;
+  }
+  .availability {
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: red;
+    /*border: 1px solid #333;*/
+    box-shadow: 0 0 1px 1px @body-text-color;
+
+    &.available {
+      background-color: @active-state-color;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #141414;
+  color: #F8B648;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'BebasNeueBold'; 
+  font-weight: normal; 
+  font-style: normal;
+  color: #C03736;
+}
+
+header, section {
+  position: relative;
+  /*background-color: #07111F;*/
+  border-bottom: 2px solid #F1943D;
+  padding: 30px 0;
+}
+
+header .availability {
+  display: inline-block;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+  /*border: 1px solid #333;*/
+  box-shadow: 0 0 1px 1px #333;
+}
+
+header .availability.available {
+  background-color: lightgreen;
+}
+
+.overview h5 {
+  color: #F1943D;
+  border-bottom: 2px solid #F1943D;
+}
+
+.overview ul li {
+  display: inline-block;
+  width: 45%;
+}
+
+.testimonials blockquote {
+  font-size: 14px;
+  padding-left: 20px;
+  border-left: 3px solid #F1943D;
+}
+
+.testimonials .testimonial {
+  margin-bottom: 30px;
+}
+
+.examples h5 {
+  margin: 0 15px;
+}
+.examples .example {
+  padding: 2% 10%;
+}
+
+.examples figure img {
+  max-width: 100%;
+}
+
+.contact form input,
+.contact form textarea {
+  margin: 15px;
+}
+
+.contact form input[type='submit'] {
+  background-color: #F8B648;
+}
