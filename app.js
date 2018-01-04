@@ -2,7 +2,7 @@ require('dotenv').config();
 var express = require('express');
 var app = express();
 var chalk = require('chalk');
-var Routes = require('./routes/');
+var Routes = require('./Routes/');
 
 app.set('view engine', 'ejs');
 
